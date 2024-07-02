@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML e CSS </title>
+    <style>
+        h1{  
+          border-radius:  20px;
+          background-color: blue;
+        padding: 10px;
+        }
+        .fundoVermelho {
+           background-color:aqua ;     
+        }   
+         #textoPrincipal{
+             padding: 10px;
+             border: 100px;
+             background-color: chartreuse;
+             margin: 500px;
+         }   
+    </style>
+</head>
+<body>
+    <h1>HTML</h1>
+    <!-- aqui eu tenho uma tag de comentario !-->
+    <p> olá vc está tudo bem ? tenha uma otima noite </p>
+    <p>meu texto em <strong>CUIDADO!</strong> e meu texto <i>itálico</i></p>
+    <p>2 <sup>2</sup>= 4  e H<sub>2</sub>O = água ! </p><hr>
+    <p>leonardo disse que <q>HTML é  muito top de se estudar !</q></p>
+    <p>o Oscar foi para <del>Laura!</del> <ins> leonardo  Lopes Fernandes !</ins></p>
+    <p>o computador  de <s>R$ 2,555,90</s> por 1000 R$ <i>GARANTA LOGO O SEU!</i> </p>
+        <a href="mailto:leonardo92lopesfernandes">entre em contato !</a>
+        <div id="gostei"onclick='clicar()'>
+            interaja.....
+
+        </div>
+        <script>
+            alert('olá tudo bem com vc ?')
+           window.document.write(window.document.URL)
+           var corpo = document.body
+          var p1 = document.getElementsByTagName('p')[0]
+         document.write ('está buscando a tag P ' + p1.innerText)
+         corpo.style.background= 'orange'
+         p1.style.color = 'blue'
+         function clicar(){
+            var area = document.getElementById('gostei')
+            area.innerText= 'vc clicou !'
+         }
+        </script>
+        <script src="index.js">léo</script>
+              <caption>PRODUTOS</caption>
+              
+            <thead>
+                <tr>
+                    <th>prduto,</th>
+                    <th>preço,</th>
+                    <th>quantidade,</th>
+                    <th>total.</th>
+                </tr>
+            </thead>
+            <table>
+                <tr>
+                    <td></td>
+                </tr>
+            </table>
+            </table>
+                
+        <h1>LISTAS ordenadas</h1>
+        <ol> 
+            <li>Pedro</li>
+            <li>João</li>
+            <li>Leonardo</li>
+            <li>lAURA</li>
+        </ol>
+        <H2>LISTA DE DE COMPRAS não ordenadas </H2>
+        <UL>
+            <li>queijo</li>
+            <li>ovo </li>
+            <li>macarão</li>
+        </UL>
+        <h2>lista de definição !</h2>
+        <dl>
+            <dt>Baas</dt>
+            <dd>Backeend como serviço  </dd>
+            <dt> Iaas</dt>
+            <dd>Infraentrutura como seerviço </dd>
+            <dt>Paas</dt>
+            <dd>plataforma como serviço</dd>
+        </dl><hr>
+    <h2>java</h2>
+    <h3>python</h3>
+    <h4>css</h4>
+    <h5>c#</h5>
+    <h6>c++</h6>
+    <nav>
+     <a href="https://sia.estacio.br/sianet/Aluno/InformacoesFinanceiras/Financeiro">clique aqui</a>
+    </nav>
+    <h1>CSS</h1>
+    <span id="textoPrincipal">testo 1</span> <br>
+     <span class="fundoVermelho">leonardo lopes fernandes</span>   
+</body>
+</html>

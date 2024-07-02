@@ -1,0 +1,32 @@
+#primeiro {
+    background-color:blueviolet;
+    color: black;
+    margin:  5px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    border: 10px;
+    border-radius: 200%;
+    font-weight: bolder;
+
+
+}
+div , #terceiroultimo{
+    background-color: aqua;
+    text-align: center;
+    border:solid 1px;
+    border-radius: 10px;
+    
+} 
+#primeiro,:hover{
+    background: violet;
+} 
+input{
+    background-color:orange;
+    margin: 10px;
+    border: solid 3px;
+    border-radius: 10px;
+    text-align: center;
+    
+
+}  

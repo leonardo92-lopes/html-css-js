@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecionar Elementos </title>
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+<body class="exercicio">
+    <div id="primeiro">#primeiro</div>
+    <div>Segundo</div>
+    <div class="terceiro ultimo">.terceiro .ultimo</div>
+    <input type="text" placeholder="Informe um text" id="texto"> -->
+   <input type="text"placeholder="informe o numero 1" id="numero1">-->
+   <input type="text"placeholder="informe o numero 2" id="numero2">-->
+    <button onclick="minhaFuncao()">Clique-me</button>-->
+    <select onchange="minhaFuncao(this.value)">
+        <option>java script</option>
+        <option>java</option>
+        <option>c#</option>
+    </select>
+    <script>
+       function minhaFuncao() {
+            var texto = document.querySelector('#texto').Value   
+            alert( texto)
+            alert('ATENÇÃO VIRUS NO SEU COMPUTADOR')
+        }
+       function minhaFuncao(){
+            var numero1 = parseInt (document.querySelector('#numero1').value)
+            var numero2 = parseInt (document.querySelector('#numero2').value)
+            var resultado = numero1 + numero2
+            alert(resultado)
+        }
+        function minhaFuncao(valor){
+            alert(valor)
+        }
+        
+      
+    </script>   
+</body>
+</html>
